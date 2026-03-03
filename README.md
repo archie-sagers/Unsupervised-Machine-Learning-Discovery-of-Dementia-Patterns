@@ -1,12 +1,11 @@
-# AI Grouping of Dementia Patterns
+# Unsupervised Learning Grouping of Dementia Patterns
 
 This project uses machine learning to find hidden groups in a dataset of 2,149 patients. 
 
 ---
 
 ## Project Overview
-I wanted to see if a clustering algorithms could find different "types" of dementia on its own, without being told what the doctors already thought. 
-By looking at 13 different measurements, it was found that dementia doesn't just go in a straight line; it’s a mix of different health issues working together.
+I wanted to see if a clustering algorithms could find different "types" of dementia on its own, without being told the results.
 
 ### Data Dimensions
 I grouped the data into three main categories:
@@ -30,9 +29,9 @@ I grouped the data into three main categories:
 
 ### 1. Discovery of Three Distinct Phenotypes
 The unsupervised K-Means clustering revealed three stable patient profiles:
-* **Cluster 0 (Physical-Frailty):** Characterised by the lowest levels of physical activity and diet quality. In this group, physical decline is the primary marker of the phenotype.
-* **Cluster 1 (Behavioral):** Despite maintaining higher functional and physical activity scores, this group exhibited the most frequent behavioral disturbances (e.g., agitation and mood changes).
-* **Cluster 2 (Lifestyle-Resilient):** A group where high diet quality persists despite significant cognitive impairment, suggesting decline driven by factors beyond lifestyle habits.
+* **Cluster 0:** Characterised by the lowest levels of physical activity and diet quality. In this group, physical decline is the primary marker of the phenotype.
+* **Cluster 1:** Despite maintaining higher functional and physical activity scores, this group exhibited the most frequent behavioral disturbances (e.g., agitation and mood changes).
+* **Cluster 2:** A group where high diet quality persists despite significant cognitive impairment, suggesting decline driven by factors beyond lifestyle habits.
 
 ### 2. Identifying "Hidden" Progression
 The clusters revealed deeper biological layers that traditional diagnostic labels sometimes miss:
